@@ -10,15 +10,19 @@ class MainPage extends StatelessWidget {
         title: const Text('Latihan Manegement Branch'),
       ),
       body: Column(
-        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          ElevatedButton(
-            onPressed: () {},
-            child: const Text('Fitur A'),
+          Center(
+            child: ElevatedButton(
+              onPressed: () {},
+              child: const Text('Fitur A'),
+            ),
           ),
-          ElevatedButton(
-            onPressed: () {},
-            child: const Text('Fitur B'),
+          Center(
+            child: ElevatedButton(
+              onPressed: () {},
+              child: const Text('Fitur B'),
+            ),
           ),
         ],
       ),
